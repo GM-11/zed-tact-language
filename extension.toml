@@ -2,10 +2,14 @@ id = "tact"
 name = "Tact"
 version = "0.0.1"
 schema_version = 1
-authors = ["Gopal Mathur mathurgopal1001@gmail.com"]
+authors = ["Gopal Mathur <mathurgopal1001@gmail.com>"]
 description = "Tact language support for the Zed editor"
 repository = "https://github.com/GM-11/zed-tact-language"
 
 [grammars.tact]
 repository = "https://github.com/tact-lang/tree-sitter-tact"
 commit = "83e264928fa194b7283428527259e88e54205264"
+
+[language_servers.tact]
+name = "Tact Language Server"
+language = ["tact"]
