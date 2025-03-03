@@ -1,0 +1,13 @@
+[package]
+name = "zed-tact-language"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[lib]
+path = "src/tact.rs"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+zed_extension_api = "0.2.0"

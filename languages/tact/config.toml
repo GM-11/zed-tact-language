@@ -1,0 +1,11 @@
+name = "Tact"
+grammar = "tact"
+path_suffixes = ["tact"]
+autoclose_before = ";:.,=}])>"
+line_comments = ["// ", "/// "]
+block_comment = ["/*", "*/"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+]
